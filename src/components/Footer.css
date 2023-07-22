@@ -1,0 +1,122 @@
+.gabriel1 {
+  position: relative;
+  line-height: 150%;
+  background: linear-gradient(270deg, #d61a5e, #ff8c05 46.6%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.column,
+.logo-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo-wrapper {
+  flex-direction: row;
+  padding: var(--padding-base) 0 0;
+}
+.column {
+  width: 20rem;
+  flex-direction: column;
+}
+.link,
+.recursos {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.link {
+  cursor: pointer;
+}
+.column1,
+.content,
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+.footer-links {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.column1,
+.content {
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  align-self: stretch;
+  padding: 0 var(--padding-148xl);
+  gap: var(--gap-base);
+}
+.column1 {
+  flex: 1;
+}
+.columns1,
+.small-columns {
+  display: flex;
+  flex-direction: row;
+}
+.small-columns {
+  width: 37.5rem;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: var(--font-size-sm);
+}
+.columns1 {
+  width: 60rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.copyright,
+.footer {
+  display: flex;
+  align-items: center;
+}
+.copyright {
+  box-shadow: 0-1px 0#e4ebf3;
+  width: 58.75rem;
+  flex-direction: row;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-45xl) var(--padding-5xl) var(--padding-5xs);
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .columns1 {
+    flex-direction: row;
+    gap: var(--gap-21xl);
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .columns1 {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    align-items: center;
+    justify-content: center;
+  }
+}

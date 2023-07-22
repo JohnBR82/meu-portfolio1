@@ -1,0 +1,335 @@
+.eu-sou-gabriel,
+.programador-front-end {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 300;
+}
+.programador-front-end {
+  font-size: var(--font-size-29xl);
+  background: linear-gradient(270deg, #d61a5e, #ff8c05 46.6%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.frame1 {
+  width: 35.25rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.image-icon {
+  position: relative;
+  width: 20vh;
+  height: 20vh;
+  object-fit: cover;
+}
+.image3-icon {
+  position: relative;
+  width: 20vh;
+  height: 20vh;
+  object-fit: cover;
+  right: 10vh;
+  
+}
+.frame1-apresentao {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-21xl) 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.sobre-mim {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--color-darkorange);
+}
+.eu-sou-programador {
+  margin: 0;
+}
+.eu-sou-programador-container,
+.tenho-dois-anos-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  line-height: 150%;
+  font-weight: 300;
+}
+.tenho-dois-anos-container {
+  font-size: var(--font-size-xl);
+  white-space: pre-wrap;
+}
+.frame2,
+.frame2-about {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frame2 {
+  width: 36.06rem;
+  flex-direction: column;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.frame2-about {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  padding: var(--padding-21xl) 0;
+  align-items: center;
+}
+.freelancer,
+.meus-servios1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-family: var(--font-inter);
+}
+.meus-servios1 {
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  color: var(--color-darkorange);
+  line-height: 150%;
+}
+.freelancer {
+  font-size: var(--font-size-29xl);
+  font-weight: 300;
+}
+.trabalhos-que-eu {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+}
+.trabalhos-que-eu,
+.webdesigner {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.gerador-de-arte {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.frame3 {
+  width: 28vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-lg);
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.image2-icon {
+  position: relative;
+  width: 20vh;
+  height: 20vh;
+  object-fit: cover;
+}
+.frame3-services {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-21xl) 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.contato1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--color-darkorange);
+}
+.discord-child {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+.discord {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.div {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  width: 33.81rem;
+  flex-shrink: 0;
+}
+.frame4 {
+  width: 38.06rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  margin-left: 10vh;
+}
+.columns,
+.frame4-contact {
+  background-color: var(--color-gray-100);
+  display: flex;
+}
+.frame4-contact {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  padding: var(--padding-21xl) 0;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-xl);
+}
+.columns {
+  width: 62.69rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .discord,
+  .frame1-apresentao,
+  .frame2-about,
+  .frame3-services,
+  .frame4-contact {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    align-items: center;
+    justify-content: center;
+  }
+  .discord,
+  .frame3-services,
+  .frame4-contact {
+    flex-direction: column;
+  }
+  .discord,
+  .frame4-contact {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 960px) {
+  .discord,
+  .frame1-apresentao,
+  .frame2-about,
+  .frame3-services,
+  .frame4-contact {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: center;
+    justify-content: center;
+  }
+  .discord,
+  .frame4-contact {
+    flex-direction: row;
+  }
+  .frame4-contact {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .discord,
+  .frame2-about,
+  .frame3-services,
+  .frame4-contact {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: center;
+    justify-content: center;
+  }
+  .discord,
+  .frame4-contact {
+    flex-direction: row;
+  }
+  .frame4-contact {
+    flex-direction: column;
+  }
+  .home-section{
+    width: 91%;
+    margin-right: 7vw;
+  }
+  .frame1{
+    font-size: small;
+    position: relative;
+    right: 6vh;
+  }
+  .frame2{
+    font-size: 3vh;
+    margin-right: 10vh;
+  }
+  .frame3{
+    font-size: 2vh;
+    right: 30vh;
+    position: relative;
+    
+  }
+  .gerador-de-arte{
+    font-size: 3vw;
+  }
+  .frame4{
+    font-size: 2vh;
+    right: 8vh;
+    position: relative;
+  }
+  .frame4, .eu-sou-programador-container{
+    font-size: 3vh;
+
+  }
+  .image-icon {
+    position: relative;
+    right: 14vh;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  .image2-icon {
+    position: relative;
+    right: 12vh;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  .eu-sou-programador{
+    font-size: 1.6vh;
+   
+    font-weight: 300;
+  }
+  .programador-front-end{
+    font-size: 3vh;
+    font-weight: bold;
+  }
+  .image3-icon {
+    position: relative;
+    right: 12vh;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+}
